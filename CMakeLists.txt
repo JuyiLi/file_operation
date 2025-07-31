@@ -50,7 +50,7 @@ SET(test_list
 foreach(var ${test_list})
     add_executable(${CMAKE_PROJECT_NAME}_${var} ${var}.cpp ${CMAKE_PROJECT_NAME}.cpp ${INCLUDE_FILES})
 
-    target_link_libraries(${CMAKE_PROJECT_NAME}_${var} curve_fitting robotarm_kinematic)
+    target_link_libraries(${CMAKE_PROJECT_NAME}_${var})
 endforeach()
 
 add_custom_target(copyfile ALL
