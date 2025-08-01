@@ -1,3 +1,14 @@
+/**
+ * @file file_operation
+ * @brief 读取文件中的数据
+ *
+ * Copyright (c) 2024 [JUYI LI].
+ * All rights reserved. Licensed under the MIT License.
+ *
+ * author: JUYI LI
+ * created: 2024-04-12
+ */
+
 #ifndef FILE_OPERATION_H
 #define FILE_OPERATION_H
 

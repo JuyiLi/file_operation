@@ -24,5 +24,20 @@ int main(int argc, char *argv[])
     vector<vector<double>> data;
     fo.file_read_data(data, 0, 2, 1);
 
+    vector<double> data1;
+    vector<double> data2;
+
+    for (int i=0; i<(int)data.size(); i++)
+    {
+        data1.push_back(data.at(i).at(0));
+        data2.push_back(data.at(i).at(1));
+    }
+
+    cout << "data1" << "    " << "data2" << endl;
+    for (int i=0; i<(int)data.size(); i++)
+    {
+        cout << data1.at(i) << "    " << data2.at(i) << endl;
+    }
+
     return 1;
 }
